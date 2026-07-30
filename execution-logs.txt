@@ -57,10 +57,6 @@ kube-system   kube-proxy-cvh2w                   1/1     Running   0            
 kube-system   kube-scheduler-minikube            1/1     Running   0             82s
 kube-system   storage-provisioner                1/1     Running   1 (51s ago)   75s
 
-C:\Users\arpit yadav>vi deployment.yaml
-'vi' is not recognized as an internal or external command,
-operable program or batch file.
-
 C:\Users\arpit yadav>mkdir k8s-minikube-demo
 
 C:\Users\arpit yadav>cd  k8s-minikube-demo
@@ -229,18 +225,6 @@ default           Active   21m
 kube-node-lease   Active   21m
 kube-public       Active   21m
 kube-system       Active   21m
-
-C:\Users\arpit yadav\k8s-minikube-demo>kubectl exec -it nginx-deployment-749746c7db-db8tw --/bin/bash
-error: unknown flag: --/bin/bash
-See 'kubectl exec --help' for usage.
-
-C:\Users\arpit yadav\k8s-minikube-demo>kubectl exec -it nginx-deployment-749746c7db-db8tw --/sh
-error: unknown flag: --/sh
-See 'kubectl exec --help' for usage.
-
-C:\Users\arpit yadav\k8s-minikube-demo>kubectl exec -it nginx-deployment-749746c7db-db8tw --/bat
-error: unknown flag: --/bat
-See 'kubectl exec --help' for usage.
 
 C:\Users\arpit yadav\k8s-minikube-demo>kubectl get pods
 NAME                                READY   STATUS    RESTARTS   AGE
